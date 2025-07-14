@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('../desafio10/pacote-projeto-d010/fontes/idroid.otf') format(opentype);
+}
+root {
+    --cor0: #c5ebd6;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    font-family: var(--fonte-padrao);
+    margin: auto;
+    background-image: linear-gradient(to bottom, darkgreen, black);
+    padding: 10px;
+    margin: 0px;
+    height: 130px;
+    text-shadow: 2px 2px 0px black;
+}
+
+header > h1 {
+    text-align: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    color: white;
+}
+
+header > p {
+    text-align: center;
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+nav {
+    background-color: black;
+    padding: 10px;
+}
+nav > a {
+    text-decoration: none;
+    color: aqua;
+    padding: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+nav > a:hover{
+    background-color: aliceblue;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgreen;
+}
+p {
+    text-indent: 40px;
+    margin: 15px 0px;
+}
+.Titulos {
+    background-image: linear-gradient(to right, lightgreen, transparent);
+    font-family: 'MinhaFonte', sans-serif;
+    color: darkgreen;
+
+}
+main {
+    background-color: white;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    min-width: 375px;
+    max-width: 800px;
+    margin: auto;
+}
+main strong {
+    color: #1c8149;
+    padding: 2px 3px;
+}
+main a {
+    background-color: lightgreen;
+    font-weight: bold;
+    padding: 2px 6px;
+}
+main img {
+    width: 100%;
+}
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+div.video {
+    background-color: #1c8149;
+    margin-bottom: 30px;
+    margin: 0px -20px;
+    padding: 20px;
+    padding-bottom: 56.5%;
+    position: relative;
+}
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 90%;
+    width: 90%;
+}
+aside {
+    background-color: rgb(184, 216, 184);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 8px black;
+}
+
+aside > h3 {
+    color: white;
+    background-color: rgb(2, 115, 7);
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+}
+
+aside > ul {
+    list-style-position: inside;
+    columns: 2;
+}
+footer {
+    background-color: rgb(20, 51, 20);
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer > a:hover {
+    background-color: rgb(24, 42, 58);
+}
